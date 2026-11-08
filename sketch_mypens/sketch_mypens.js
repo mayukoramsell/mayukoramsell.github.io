@@ -104,29 +104,10 @@ var lastscreenshot=61; // last screenshot never taken
 let button; //https://p5js.org/reference/p5/createButton/
 
 function preload() {
-  // preload() runs once, it may make you wait
-  //  img = loadImage('cat.png');  // cat.jpg needs to be next to this .js file
-  // you can link to an image on your github account
-  //img = loadImage('https://arao-sjsu.github.io/images/cat.jpg');
   img = loadImage('https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/859521674_18478081060117160_7396639485319435288_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=NDAxNDA1MDQyOTEyNTMxMjAxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTAxMS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=AbHcMgy9DsIQ7kNvwFu_PZM&_nc_oc=AdqjAVgtX1kkJoFGRRO0xRLhgfUiy7LzpExFwwwLDwpisz8AY9v3pQPqHgrrxT6DwSSREwkDGUXFRtZ4V4ExLzcG&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_gid=K6xscG1CPt4mlagWqeHlQw&_nc_ss=7b6a8&oh=00_AQRm6Pk6WNp1t5d7dWgdxahpeiju5gTIjGsolHTx8taK6w&oe=6AED5C23');
-  //  img2 = loadImage('https://arao-sjsu.github.io/images/round.png');
-  //  img3 = loadImage('https://veryprofessional3d.github.io/images/rainbow.gif');
+  
 }
-//function sketch2(p) {
-//  p.setup = function () {
-//    p.createCanvas(600, 200);
-//    p.background(250);
-//    text('1=', -10, 500);
-//    //p.fill(0);
-//    //p.stroke(255);
-//  };
-//  //p.draw = function () {
-//  //  p.square(p.mouseX, p.mouseY, 50);
-//  //};
-//}
 
-// Run second p5 instance
-//new p5(sketch2);
 
 function setup() {
   createCanvas(600, 600);
